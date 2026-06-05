@@ -5,4 +5,5 @@ __pycache__/
 .vscode/
 mac_info_crash.log
 build/
+dist/
 *.spec
