@@ -439,7 +439,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.hardware = get_hardware_info()
-        self.setWindowTitle("二手 Mac 信息检测工具")
+        self.setWindowTitle("Mac 信息检测工具")
         self.setMinimumSize(620, 360)
 
         root = QWidget()
@@ -450,7 +450,7 @@ class MainWindow(QMainWindow):
 
         header = QHBoxLayout()
         title_box = QVBoxLayout()
-        title = QLabel("二手 Mac 信息检测工具")
+        title = QLabel("Mac 信息检测工具")
         title.setObjectName("AppTitle")
         subtitle = QLabel(
             f"{self.hardware['model_name']}  {self.hardware['model_id']}  |  {self.hardware['chip']}  |  SN: {self.hardware['serial']}"

@@ -1,6 +1,6 @@
-# 二手 Mac 信息检测工具
+# Mac 信息检测工具
 
-这是一个基于 PyQt6 的 macOS 信息检测工具，用于查看二手 Mac 的硬盘健康、容量使用情况，以及 MacBook 机型的电池信息。
+这是一个基于 PyQt6 的 macOS 信息检测工具，用于查看 Mac 的硬盘健康、容量使用情况，以及 MacBook 机型的电池信息。
 
 没有内置电池的机型，例如 Mac mini、iMac、Mac Studio，会只显示 SSD 检测卡片；MacBook 会额外显示电池信息。
 
